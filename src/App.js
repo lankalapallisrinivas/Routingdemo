@@ -9,14 +9,14 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function App() {
   return (
     <Router>
-    <div className="container-fluid">
+    <div className="clearfix">
         <Navbar />
         <Switch>
+          <div className="container-fluid">
           <Route path="/" component={Home} exact />
           <Route path="/about"  component={About}/>
           <Route path="/Services"  component={Services}/>
-          <About/>
-          <Services />
+          </div>
         </Switch>
     </div>
     </Router>
