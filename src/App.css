@@ -34,3 +34,17 @@
 .active {
   color: red;
 }
+.footer-sticky {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ededed;
+  text-align: center;
+}
+.home-banner {
+  width: 100%; height: 670px; padding:0px; clip: auto;
+}
+.home-banner img {
+  width: 100%; height: 100%; object-fit:cover;
+}
